@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0057B8; /* Boca Juniors Blue */
+    color: white; /* White text on blue background */
+}
+
+header {
+    background-color: #0057B8; /* Use the same blue for consistency */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0; 
+    padding: 10px; 
+    background-color: rgb(255, 251, 0); 
+    border-radius: 5px; 
+}
+
+.logo img {
+    max-width: 100%; 
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+    color: black;
+}
+
+article {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+#logo-section { 
+    display: flex;
+    justify-content: center; 
+}
